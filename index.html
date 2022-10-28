@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="with=device-width,  initial-scale=1.0" />
+    <title>Mauve By Fifi</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="link" rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="link" rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="link" rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+        <a href="index.html"><img src="images/mauvebyfif.jpg" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hidemenu()"></i>
+          <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">GIFTBOXES</a></li>
+            <li><a href="">BALLOONS</a></li>
+            <li><a href="">HAMPERS</a></li>
+            <li><a href="">GIFTWRAPPING</a></li>
+            <li><a href="">CUSTOMIZED EXPERIENCE</a></li>
+            <li><a href="">CLIENTS</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+      <div class="text-box">
+        <h1>Unique, Customized, Memorable Gifts</h1>
+        <p>
+          Special Occassion gifts and balloons inspired by you,<br />
+          and executed by Mauve By Fifi
+        </p>
+        <a href="" class="hero-btn">Visit Us To Know More</a>
+      </div>
+    </section>
+    <!----course------->
+
+    <section class="course">
+      <h1>Curated Gifts and Balloons</h1>
+      <p>Distinctive gift ideas and remarkable selection</p>
+
+      <div class="row">
+        <div class="course-col">
+          <h3>Our Process</h3>
+          <p>
+            A collaboration with our clients to curate thoughtful, distinctive,
+            remarkable gifts
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>About Us</h3>
+          <p>Founder Nwobi Ifunanyachukwu</p>
+        </div>
+        <div class="course-col">
+          <h3>Clients</h3>
+          <p>The most rewarding press is positive feedback</p>
+        </div>
+      </div>
+    </section>
+
+    <!---------giftboxes-------->
+    <section class="giftboxes">
+      <h1>Our Services</h1>
+      <p>Let your experience with Mauve By Fifi begin</p>
+
+      <div class="row">
+        <div class="giftboxes-col">
+          <img src="images/IMG_1943.JPG" />
+          <div class="layer">
+            <h3>Giftboxes</h3>
+          </div>
+        </div>
+        <div class="giftboxes-col">
+          <img src="images/IMG_7082 2.jpg" />
+          <div class="layer">
+            <h3>Balloons</h3>
+          </div>
+        </div>
+        <div class="giftboxes-col">
+          <img src="images/IMG_1981.jpg" />
+          <div class="layer">
+            <h3>Gift Wrapping</h3>
+          </div>
+        </div>
+        <div class="giftboxes-col">
+          <img src="images/IMG_1951.JPG" />
+          <div class="layer">
+            <h3>Hampers</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--------Javascript for Toggle Menu -------->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hidemenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
